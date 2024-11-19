@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savio Borges de Sousa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d0e7ff; /* Azul bem claro */
+        }
+
+        header {
+            background-color: #002f5e; /* Azul bem escuro */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        main {
+            display: flex;
+        }
+
+        nav {
+            width: 200px;
+            background-color: #002f5e;
+            color: white;
+            padding: 15px;
+            height: 100vh;
+            box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 15px 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        article {
+            flex: 1;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #002f5e;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .columns {
+            column-count: 2;
+            column-gap: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Savio Borges de Sousa
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#topic1">Clima Equatorial</a></li>
+                <li><a href="#topic2">Clima Tropical</a></li>
+                <li><a href="#topic3">Clima Semiárido</a></li>
+                <li><a href="#topic4">Clima Subtropical</a></li>
+                <li><a href="#topic5">Clima Litorâneo</a></li>
+            </ul>
+        </nav>
+        <article>
+            <section id="topic1">
+                <h2>Clima Equatorial</h2>
+                <div class="columns">
+                    O clima equatorial é caracterizado por altas temperaturas e chuvas intensas durante todo o ano. É comum em regiões como a Amazônia, onde a floresta tropical predomina. Exemplos: Manaus e Belém.
+                </div>
+                <img src="Equatorial.jfif" alt="Floresta Amazônica">
+            </section>
+
+            <section id="topic2">
+                <h2>Clima Tropical</h2>
+                <div class="columns">
+                    O clima tropical tem duas estações bem definidas: uma seca e outra chuvosa. Ele é predominante no Centro-Oeste e no Nordeste brasileiro. Exemplos: Brasília e Salvador.
+                </div>
+                <img src="Tropical.webp" alt="Cerrado brasileiro">
+            </section>
+
+            <section id="topic3">
+                <h2>Clima Semiárido</h2>
+                <div class="columns">
+                    O clima semiárido é marcado pela baixa umidade e chuvas irregulares, típico do sertão nordestino. Exemplos: Petrolina e Juazeiro.
+                </div>
+                <img src="semiarido.webp" alt="Caatinga">
+            </section>
+
+            <section id="topic4">
+                <h2>Clima Subtropical</h2>
+                <div class="columns">
+                    O clima subtropical tem estações bem definidas, com verões quentes e invernos rigorosos. É predominante no Sul do Brasil. Exemplos: Curitiba e Porto Alegre.
+                </div>
+                <img src="floresta-temperada.webp" alt="Floresta de araucárias">
+            </section>
+
+            <section id="topic5">
+                <h2>Clima Litorâneo</h2>
+                <div class="columns">
+                    O clima litorâneo é úmido, com temperaturas amenas e chuvas regulares. Abrange áreas próximas ao mar, como Rio de Janeiro e Recife.
+                </div>
+                <img src="litoraneo.webp" alt="Praia no Rio de Janeiro">
+            </section>
+        </article>
+    </main>
+</body>
+</html>
